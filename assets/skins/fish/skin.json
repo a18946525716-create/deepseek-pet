@@ -1,0 +1,99 @@
+{
+  "name": "大肥鱼",
+  "size": [
+    284,
+    360
+  ],
+  "frames": {
+    "open|neutral": "e-open_m-neutral.png",
+    "open|talk1": "e-open_m-talk1.png",
+    "open|talk2": "e-open_m-talk2.png",
+    "open|talk3": "e-open_m-talk3.png",
+    "open|smile": "e-open_m-smile.png",
+    "open|o": "e-open_m-o.png",
+    "open|frown": "e-open_m-frown.png",
+    "lid35|neutral": "e-lid35_m-neutral.png",
+    "lid35|talk1": "e-lid35_m-talk1.png",
+    "lid35|talk2": "e-lid35_m-talk2.png",
+    "lid35|talk3": "e-lid35_m-talk3.png",
+    "lid35|smile": "e-lid35_m-smile.png",
+    "lid35|o": "e-lid35_m-o.png",
+    "lid35|frown": "e-lid35_m-frown.png",
+    "lid70|neutral": "e-lid70_m-neutral.png",
+    "lid70|talk1": "e-lid70_m-talk1.png",
+    "lid70|talk2": "e-lid70_m-talk2.png",
+    "lid70|talk3": "e-lid70_m-talk3.png",
+    "lid70|smile": "e-lid70_m-smile.png",
+    "lid70|o": "e-lid70_m-o.png",
+    "lid70|frown": "e-lid70_m-frown.png",
+    "closed|neutral": "e-closed_m-neutral.png",
+    "closed|talk1": "e-closed_m-talk1.png",
+    "closed|talk2": "e-closed_m-talk2.png",
+    "closed|talk3": "e-closed_m-talk3.png",
+    "closed|smile": "e-closed_m-smile.png",
+    "closed|o": "e-closed_m-o.png",
+    "closed|frown": "e-closed_m-frown.png",
+    "happy|neutral": "e-happy_m-neutral.png",
+    "happy|talk1": "e-happy_m-talk1.png",
+    "happy|talk2": "e-happy_m-talk2.png",
+    "happy|talk3": "e-happy_m-talk3.png",
+    "happy|smile": "e-happy_m-smile.png",
+    "happy|o": "e-happy_m-o.png",
+    "happy|frown": "e-happy_m-frown.png",
+    "happy|smile|blush": "e-happy_m-smile_blush.png"
+  },
+  "blink": [
+    "lid35",
+    "lid70",
+    "closed"
+  ],
+  "talk": [
+    "talk1",
+    "talk2",
+    "talk3"
+  ],
+  "blush_suffix": true,
+  "expressions": {
+    "neutral": [
+      "open",
+      "neutral"
+    ],
+    "happy": [
+      "happy",
+      "smile"
+    ],
+    "laugh": [
+      "happy",
+      "talk3"
+    ],
+    "smile": [
+      "open",
+      "smile"
+    ],
+    "surprised": [
+      "open",
+      "o"
+    ],
+    "sad": [
+      "lid70",
+      "frown"
+    ],
+    "angry": [
+      "lid35",
+      "frown"
+    ],
+    "shy": [
+      "happy",
+      "smile",
+      "blush"
+    ],
+    "think": [
+      "lid35",
+      "neutral"
+    ],
+    "talk": [
+      "open",
+      "talk2"
+    ]
+  }
+}

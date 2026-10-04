@@ -1,0 +1,18 @@
+# runtime state: per-machine position, session id, local paths
+pet_config.json
+
+# source art: reference screenshot + cutout. Not redistributed — the character
+# image came from a third-party screenshot, so only the generated frames ship.
+assets/source/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# editors / os
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
